@@ -107,6 +107,7 @@ namespace SortingApp
             int i = left - 1;
             for (int j = left; j < right; j++)
             {
+
                 if (array[j] < pivot)
                 {
                     i++;
